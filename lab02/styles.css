@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0 0 50px 0;
     background-color: whitesmoke;
     color: #333;
 }
@@ -50,6 +50,15 @@ h2 {
 
 h3 {
     margin-top: 15px;
+}
+
+.right-text {
+    float: right;
+}
+
+.right-text-li {
+    float: right;
+    padding-right: 50px;
 }
 
 a {
