@@ -18,6 +18,12 @@ section {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+section:hover {
+    background-color: rgb(225, 225, 255);
+    transform: scale(0.99);
 }
 
 details > summary {
